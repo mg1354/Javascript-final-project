@@ -1,0 +1,29 @@
+
+body{
+    background-color:#00ff00; 
+}
+form {
+    width:300px;
+    background-color: #b3d9ff;
+    padding: 10px;
+    margin: 0px 5px 5px 5px  ;
+    border: 3px solid #0000cc;
+}
+h1 {
+    width: 300px;
+    color:#001a00;
+    border: 3px solid#0000cc;
+    background-color:#1aa3ff;
+    padding: 10px;
+    margin: 5px 5px 0px 5px;
+    font-size: 20px;
+}
+
+ul {
+    width: 300px;
+    border: 3px solid#0000cc;
+    padding: 5px 5px 5px 15px;
+    margin: 0px 5px 5px 5px;
+    font-size: 20px;
+    background-color: #b3d9ff;
+}
