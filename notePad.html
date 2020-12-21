@@ -3,24 +3,36 @@
     <head>
       <title>Online note pad</title>
       <link rel="stylesheet" href="notePad.css"/>
-      <script src="notePad.js"></script>
+      
     </head>
+
     <body>
-       <div>
-           <h1>Online note pad</h1>
+      <header> Online note pad.</header>
+     <div class="flex-container">
+       
+       <div class=" color">
+
+           <h1 >Add note</h1>
            <form>
                <label for="title"> Add title:</label><br>
-               <input type="text" id="title" name="title"/><br>
+               <input type="text" id="title" name="title"  /><br>
                <label for="note"> Add note:</label><br>
-               <textarea name="note" id="note" cols="30" rows="5"></textarea><br>
+               <textarea name="note" id="note" rows="5"  cols="30"  ></textarea><br>
                <button  type="button" onclick="save()"> save</button>
-           </form>
+              
+            </form>
        </div>
-       <div>
-           <h1>Notes list</h1>
-           <ul id="ul">
-               
-           </ul>
-       </div>
+       
+      
+      <div class="colore">
+        <h1 > Notes list</h1> 
+        <div id ="container">
+           
+            
+        </div>    
+      </div>
+     </div>
+    <script src="notePad.js"></script>
     </body>
+
 </html>
