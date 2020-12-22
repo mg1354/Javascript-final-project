@@ -11,7 +11,9 @@ header{
     text-align: center;
     margin: 5px;
     border-radius: 10px;
+    background-color:#ccccb3;
 }
+
 form {
     width:250px;
     padding: 10px;
@@ -20,6 +22,7 @@ form {
     border-radius: 10px;
     background-color:#ff0000;
 }
+
 h1 {
     width: 250px;
     color:#001a00;
@@ -33,16 +36,16 @@ h1 {
 }
 
 .flex-container {
-    display: flex;
-     
+    display: flex;   
 }
+
 #container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     
-    
-}   
+}
+
 .box{
     width: 250px;
     border: 5px solid #800000;
@@ -52,6 +55,7 @@ h1 {
     font-size: 20px;
     background-color:  #80bfff;  
 }
+
 p{
     max-width: 250px;
 }

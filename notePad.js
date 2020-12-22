@@ -1,12 +1,12 @@
 
+init();
+
 function Note(date,title,note){
     this.date= date;
     this.title= title;
     this.note= note;
 }
 
-
-init();
 
 function save(){
      const date = new Date();
@@ -17,7 +17,7 @@ function save(){
      document.getElementById("title").value='';
      document.getElementById("note").value='';
      init();
- }
+}
 
 
 function saveNotes(note){
@@ -63,6 +63,7 @@ function init(){
         box.appendChild(body);
         box.appendChild(remove);
         document.getElementById("container").appendChild(box);
+        
         remove.addEventListener("click", function(){
         noteArray.splice(x,1);
         localStorage.setItem('note',JSON.stringify(noteArray));
