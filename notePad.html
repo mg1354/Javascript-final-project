@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Online note pad</title>
+      <link rel="stylesheet" href="notePad.css"/>
+      
+    </head>
+
+    <body>
+      <header> Online note pad.</header>
+      <div class="flex-container">
+       
+        <div class=" color">
+
+           <h1 >Add note</h1>
+           <form>
+               <label for="title"> Add title:</label><br>
+               <input type="text" id="title" name="title"  /><br>
+               <label for="note"> Add note:</label><br>
+               <textarea name="note" id="note" rows="5"  cols="30"  ></textarea><br>
+               <button  type="button" onclick="save()"> save</button>
+              
+            </form>
+        </div>
+       
+      
+        <div class="colore">
+          <h1 > Notes list</h1> 
+          <div id ="container">
+           
+            
+          </div>    
+        </div>
+      </div>
+      <script src="notePad.js"></script>
+    </body>
+
+</html>
